@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica';
+	background: url("../images/jsq.jpg") no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+.clear{
+	clear: both;
+}
+#biaozhun,#kexue{
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	color: black;
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+#biaozhun{
+	background: green;
+	color: #fff;
+}
+#kexue{
+	top: 100px;
+}
+#screen{
+	width: 300px;
+	border: 1px solid black;
+	background: #ccc;
+	margin: 60px auto;
+	overflow: hidden;
+	/*display: none;*/
+}
+#time{
+	width: 100%;
+	height: 30px;
+	background: black;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+}
+#xianshi{
+	min-width: 100%;
+	height: 80px;
+	padding: 10px;
+	/*border: 1px solid red;*/
+	text-align: right;
+	line-height: 80px;
+	font-size: 4em;
+	float: right;
+	overflow: hidden;
+}
+.button{
+	width: 75px;
+	height: 65px;
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	font-size: 24px;
+	background: #ccc;
+	color: white;
+	cursor: pointer;
+}
+.button:hover,.button2:hover{
+	background: #bbb;
+}
+.lianjia{
+	height: 50px;
+	line-height: 50px;
+}
+.oprator,.num{
+	background: #eee;
+	color: black;
+}
+#denghao{
+	height: 130px;
+	float: right;
+	line-height: 138px;
+	background:#fd8821;
+}
+#kuan{
+	width: 150px;
+}
+#screen2{
+	width: 720px;
+	margin: 80px auto;
+	border: 1px solid black;
+	overflow: hidden;
+	display: none;
+}
+#time2{
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-weight: bold;
+}
+#xianshi2{
+	height: 60px;
+	padding: 10px;
+	background-color: #ccc;
+	font-size: 4em;
+	text-align: right;
+	line-height: 60px;
+}
+.button2{
+	width: 90px;
+	height: 65px;
+	float: left;
+	background-color: #eee;
+	font-size: 24px;
+	text-align: center;
+	line-height: 65px;
+	color: black;
+	cursor: pointer;
+}
+.chang2{
+	height: 150px;
+	float: right;
+	line-height: 150px;
+	background-color: #fd8821;
+	color: #eee;
+}
+.kuan2{
+	width: 180px;
+}
+img{
+	margin: 12px 8px;
+}
